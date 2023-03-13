@@ -5,7 +5,7 @@
        stage('test') {
          steps {
            script {
-              def abc= "hello"
+              env.abc = "hello"
               def xyz= 10
 
               print "abc = ${abc}"
