@@ -14,7 +14,7 @@ pipeline {
 
 @library('roboshop')
 
-pipeline {
+ pipeline {
  agent any
  stages {
  stage('test') {
@@ -32,4 +32,4 @@ pipeline {
  }
  }
  }
-}
+ }
