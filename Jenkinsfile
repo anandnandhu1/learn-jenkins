@@ -14,12 +14,12 @@ pipeline {
 
 @library('roboshop')
 
- pipeline {
+pipeline {
  agent any
  stages {
  stage('test') {
- steps{
- script{
+ steps {
+ script {
  def abc="hello"
  def xyz =10
 
