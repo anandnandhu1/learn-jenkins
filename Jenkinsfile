@@ -20,7 +20,7 @@ pipeline {
  stage('test') {
  steps {
  script {
- test
+ test1
  }
  }
  }
