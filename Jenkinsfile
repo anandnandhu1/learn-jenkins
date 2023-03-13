@@ -1,6 +1,6 @@
-@library('roboshop')
+@library('roboshop') _
 
-pipeline {
+ pipeline {
  agent any
   stages {
    stage('test') {
