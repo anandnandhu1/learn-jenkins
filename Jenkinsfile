@@ -1,5 +1,5 @@
 @Library('roboshop') _
-
+env.abc = "somedata"
 test1.new1()
 
 
